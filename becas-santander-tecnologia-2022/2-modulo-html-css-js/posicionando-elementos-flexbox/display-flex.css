@@ -1,0 +1,17 @@
+.flex {
+    max-width: 300px;
+    padding:10px;
+    border: 2px solid black;
+}
+
+.item {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(58, 211, 116, 0.808);
+    border-color: white;
+    border-radius:10px;
+    text-align:center;
+    margin:5px;
+    vertical-align:middle;
+
+}
