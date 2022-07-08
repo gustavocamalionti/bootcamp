@@ -1,9 +1,24 @@
 .flex-container {
-    display:flex;
+    display: flex;
+    border: 1px solid black;
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+
+.flex-container--default {
+    flex-flow: row nowrap;
+}
+
+.flex-container--wrap {
+    flex-flow: row wrap-reverse;
 }
 
 .flex-container__item {
     background-color:blueviolet;
     margin: 5px;
     color:white;
+    text-align:center;
+    width:100px;
+    height:50px;
+    line-height: 50px;
 }
