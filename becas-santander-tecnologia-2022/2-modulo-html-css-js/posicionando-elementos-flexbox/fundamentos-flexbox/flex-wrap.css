@@ -1,0 +1,48 @@
+.flex-container {
+    display: flex;
+    height:375px;
+    border: 2px solid black;
+    max-width:320px;
+    flex-direction:column;
+}
+
+.flex-container__item {
+    font-size: 24px;
+    height:100px;
+    text-align:center;
+    min-width:100px;
+    line-height: 100px;
+    text-align:center;
+    color:white;
+    font-weight: bolder;
+    border-radius:10px;
+}
+
+.blue{
+    background-color:blue;
+}
+
+.green {
+    background-color: lightgreen;
+}
+
+.orange {
+    background-color: orangered;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.flex-container--nowrap {
+    flex-wrap: nowrap;
+}
+
+.flex-container--wrap {
+    flex-wrap:wrap;
+}
+
+
+.flex-container--wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
