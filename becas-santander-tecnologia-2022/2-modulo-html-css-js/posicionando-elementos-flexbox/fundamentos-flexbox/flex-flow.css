@@ -10,7 +10,23 @@
 }
 
 .flex-container--wrap {
+    flex-flow: row wrap;
+}
+
+.flex-container--wrap-reverse {
     flex-flow: row wrap-reverse;
+}
+
+.flex-container--r-nowrap {
+    flex-flow: row-reverse nowrap;
+}
+
+.flex-container--r-wrap {
+    flex-flow: row-reverse wrap;
+}
+
+.flex-container--rr-wrap-reverse {
+    flex-flow: row-reverse wrap-reverse;
 }
 
 .flex-container__item {
