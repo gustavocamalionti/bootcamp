@@ -37,3 +37,8 @@
 .container__item--around {
     justify-content: space-around;
 }
+
+.container__item--column {
+    flex-direction: column;
+    min-height:200px;
+}
