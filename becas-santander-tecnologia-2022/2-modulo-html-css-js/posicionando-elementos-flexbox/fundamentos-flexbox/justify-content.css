@@ -1,0 +1,39 @@
+.container {
+    max-width: 400px;
+    border: 1px solid black;
+    margin: 0;
+    display:flex;
+}
+
+.container__item{
+    background-color: blueviolet;
+    margin: 5px;
+    text-align: center;
+    color: white;
+    padding:5px;
+    border-radius:7px;
+}
+
+.container__item--flex-start {
+    justify-content:flex-start;
+}
+
+.container__item--flex-end {
+    justify-content: flex-end;
+}
+
+.container__item--center {
+    justify-content: center;
+}
+
+.container__item--between {
+    justify-content: space-between;
+}
+
+.container__item--evenly {
+    justify-content: space-evenly;
+}
+
+.container__item--around {
+    justify-content: space-around;
+}
