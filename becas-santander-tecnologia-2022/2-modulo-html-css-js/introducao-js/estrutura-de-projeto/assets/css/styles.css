@@ -1,0 +1,60 @@
+* {
+    color: grey;
+    box-sizing: border-box;
+}
+
+body {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:100%;
+    background-color:rgb(187, 230, 230);
+}
+
+#counter {
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    max-width:130px;
+    height: 60px;
+    width:100%;
+}
+
+.counter__button {
+    border-radius:50%;
+    width:40px;
+    height:40px;
+    border: 2px solid green;
+    background-color:white;
+    line-height: 100%;
+    text-align: center;
+    font-weight:600;
+    font-size:16px;
+}
+
+.counter__button--subtrair {
+    color:red;
+    border-color:red;
+}
+
+.counter__button--subtrair:hover {
+    color:white;
+    background-color: red;
+}
+
+.counter__button--somar {
+    color:green;
+    border-color:green;
+}
+
+.counter__button--somar:hover {
+    color:white;
+    background-color: green;
+}
+
+.counter__button--click:active {
+    position:relative;
+    width:45px;
+    height:45px;
+    font-size:18px;
+}
