@@ -32,22 +32,23 @@ body {
     font-size:16px;
 }
 
-.counter__button--subtrair {
+#subtrair {
+    display:none;
     color:red;
     border-color:red;
 }
 
-.counter__button--subtrair:hover {
+#subtrair:hover {
     color:white;
     background-color: red;
 }
 
-.counter__button--somar {
+#somar {
     color:green;
     border-color:green;
 }
 
-.counter__button--somar:hover {
+#somar:hover {
     color:white;
     background-color: green;
 }
