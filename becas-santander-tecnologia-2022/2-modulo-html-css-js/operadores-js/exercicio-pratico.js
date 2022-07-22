@@ -7,7 +7,7 @@ function comparaNumeros(num1,num2) {
     const segundaFrase = criaSegundaFrase(num1,num2)
 
     return `${primeiraFrase} ${segundaFrase}`
-} 
+};
 
 function criaPrimeiraFrase(num1,num2) {
     let saoIguais = '';
@@ -17,7 +17,7 @@ function criaPrimeiraFrase(num1,num2) {
     }
 
     return `Os números ${num1} e ${num2} ${saoIguais} são iguais.`
-}
+};
 
 function criaSegundaFrase(num1, num2) {
     const soma = num1 + num2;
@@ -36,4 +36,4 @@ function criaSegundaFrase(num1, num2) {
     }
     
     return `Sua soma é ${soma}, que é ${resultado10} que 10 e ${resultado20} que 20.`
-}
+};
